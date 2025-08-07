@@ -1,0 +1,38 @@
+# Maven target directory
+target/
+
+# IDE files
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# Build artifacts
+*.jar
+*.war
+*.ear
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+
+# Maven Wrapper
+.mvn/
+mvnw
+mvnw.cmd
+
+# WebDriver binaries (e.g. chromedriver, geckodriver)
+chromedriver
+geckodriver
+*.exe
+
+# TestNG output
+test-output/
+.config
+.prefs
