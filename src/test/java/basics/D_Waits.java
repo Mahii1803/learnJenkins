@@ -43,6 +43,7 @@ public class D_Waits {
 		wait.until(
 				ExpectedConditions.invisibilityOfElementLocated(By.xpath("//h1[text()='Welcome to the-internets']")));
 //		wait.until(ExpectedConditions.textToBe());
+		driver.quit();
 	}
 
 	@Test
@@ -57,6 +58,7 @@ public class D_Waits {
 
 		WebElement ele = wait.until(d -> d.findElement(By.linkText("Entry Ad")));
 		ele.click();
+		driver.quit();
 	}
 
 }

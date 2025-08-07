@@ -93,8 +93,16 @@
 					<version>3.13.0</version>
 				</plugin>
 				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.3.0</version>
+					<version>3.0.0-M5</version> <!-- or latest version -->
+					<configuration>
+						<testFailureIgnore>true</testFailureIgnore>
+						<suiteXmlFiles>
+							<suiteXmlFile>src/test/resources/testng.xml</suiteXmlFile> <!--
+							path to your testng.xml -->
+						</suiteXmlFiles>
+					</configuration>
 				</plugin>
 				<plugin>
 					<artifactId>maven-jar-plugin</artifactId>

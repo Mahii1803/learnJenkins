@@ -42,6 +42,8 @@ public class B_SelectClass {
 		WebElement ele2 = driver.findElement(By.xpath("//select[@id='dropdown']"));
 		Select select1 = new Select(ele2);
 		select1.selectByVisibleText("Option 2");
+		
+		driver.close();
 
 	}
 

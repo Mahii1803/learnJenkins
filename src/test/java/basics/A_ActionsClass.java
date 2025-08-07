@@ -86,6 +86,8 @@ public class A_ActionsClass {
 				.sendKeys("Testing").keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys(Keys.BACK_SPACE)
 				.build().perform();
 		Thread.sleep(1000);
+		
+		driver.quit();
 
 	}
 

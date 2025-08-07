@@ -18,7 +18,7 @@ public class Z_BrowserLaunch {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(15));
 		driver.navigate().to(URL);
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		driver.close();
 	}
 
@@ -28,7 +28,7 @@ public class Z_BrowserLaunch {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(URL);
-		Thread.sleep(2000);
+		Thread.sleep(5000);
 		driver.close();
 	}
 
@@ -38,7 +38,7 @@ public class Z_BrowserLaunch {
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get(URL);
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		driver.close();
 	}
 
