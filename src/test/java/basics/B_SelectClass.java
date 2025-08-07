@@ -19,7 +19,7 @@ public class B_SelectClass {
 	public void dropdown() throws InterruptedException, IOException {
 //		selectByIndex, selectByValue, selectByVisibleText, selectByContainsVisibleText
 //		Same for de-selection but de-selection will work multi-select drop-down
-		String url = "https://the-internet.herokuapp.com/";
+		String url = "https://the-internet.herokuapp.com/dropdown";
 
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();

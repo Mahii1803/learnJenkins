@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite thread-count="3" parallel="methods" name="SeleniumTest">
+<suite name="SeleniumTest">
 	<test name="AllTestCases">
 		<classes>
 			<class name="basics.A_ActionsClass" />
